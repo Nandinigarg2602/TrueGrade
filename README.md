@@ -1,4 +1,4 @@
-# TrueGrade — The Moody's for Agri-Commodities
+# TrueGrade — Trust is not claimed. It is measured.
 
 > **Institutional Authority meets Rural Warmth.**  
 > AI-powered agricultural grading and agri-fintech platform bridging farmers, mandis, and financial institutions with tamper-evident Digital Quality Certificates (DQCs).
@@ -31,29 +31,3 @@ TrueGrade transforms physical grain inspection into verifiable, cryptographicall
 - **Styling**: Tailwind CSS + Custom Design System Tokens (Bone White `#F9F9F7`, Deep Forest Green `#1A4D2E`, Harvest Gold `#D4A373`)
 - **Typography**: *Playfair Display*, *Manrope*, *JetBrains Mono*
 - **Motion & Icons**: Framer Motion, Lucide React
-
----
-
-## ⚡ Quick Start
-
-### 1. Start the Express API Engine (Backend)
-
-```bash
-cd server
-npm install
-npm run dev
-```
-
-The API engine will listen at `http://localhost:5000`.
-
-### 2. Start the Vite React Frontend (Client)
-
-In a new terminal:
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-The client application will start at `http://localhost:5173`.
