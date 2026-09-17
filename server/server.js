@@ -278,7 +278,7 @@ app.get('/api/transparency-stats', async (req, res) => {
 
 // Connect to DB and start server
 connectDB().then(() => {
-  app.listen(PORT, () => {
+  app.listen(PORT, '0.0.0.0', () => {
     console.log(`[TrueGrade Server] API engine listening on port ${PORT}`);
     console.log(`[TrueGrade Server] Health: http://localhost:${PORT}/api/health`);
     console.log(`[TrueGrade Server] Market Prices: http://localhost:${PORT}/api/market-prices`);
